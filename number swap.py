@@ -1,9 +1,10 @@
-a=int(input("enter a number: "))
-b=int(input("enter a number: "))
-c=int(input("enter a number: "))
-a=(b)
-print(a)
-b=(c)
-print(b)
-c=(a)
-print(c)
+a = int(input("Enter a number: "))
+b = int(input("Enter a number: "))
+c = int(input("Enter a number: "))
+
+temp = a
+a = b
+b = c
+c = temp
+
+print(a, b, c)
