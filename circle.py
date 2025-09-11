@@ -1,7 +1,7 @@
-def circum(p,q):
-    return p*q
-radius=int(input("enter the radius of the circle: "))
-pi=3.19
-circumference=pi*radius*2
-print(circumference,"is the circumference of the circle of radius",radius)
-           
+import math
+
+def circum(radius):
+    return 2 * math.pi * radius
+
+radius = int(input("Enter the radius of the circle: "))
+print(circum(radius), "is the circumference of the circle of radius", radius)
